@@ -1,13 +1,201 @@
 body {
+  background-color: #f9fbfd;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  color: #2c3e50;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  color: #34495e;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#div_students {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 15px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+td {
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+th {
+  background-color: #2980b9;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+tr:hover {
+  background-color: #f4f9fd;
+  transition: background-color 0.3s ease;
+}
+
+tr:nth-child(even) {
+  background-color: #f8fbfd;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border: 1px solid #3498db;
+  outline: none;
+  background-color: #f9fcff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomInContent {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#div_students {
+  margin-top: 30px;
+}
+
+#div_students table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#div_students th {
+  background-color: #2980b9;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  text-align: left;
+}
+
+#div_students td {
+  font-size: 16px;
+  color: #2c3e50;
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+#div_students tr:hover {
+  background-color: #f4f9fd;
+  transition: background-color 0.3s ease;
+}
+
+#div_students tr:nth-child(even) {
+  background-color: #f8fbfd;
+}
+
+.action-link {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.action-link:hover {
+  color: #2980b9;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
