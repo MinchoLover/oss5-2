@@ -1,0 +1,92 @@
+[
+  {
+    "name": "정민차",
+    "favorite_food": "차",
+    "age": "24",
+    "id": "1"
+  },
+  {
+    "name": "홍길동",
+    "favorite_food": "김치전",
+    "age": "94",
+    "id": "2"
+  },
+  {
+    "name": "성춘향",
+    "favorite_food": "비빔밥",
+    "age": "22",
+    "id": "3"
+  },
+  {
+    "name": "장길산",
+    "favorite_food": "떡볶이",
+    "age": "28",
+    "id": "4"
+  },
+  {
+    "name": "김유신",
+    "favorite_food": "갈비",
+    "age": "35",
+    "id": "5"
+  },
+  {
+    "name": "이순신",
+    "favorite_food": "회",
+    "age": "40",
+    "id": "6"
+  },
+  {
+    "name": "신사임당",
+    "favorite_food": "전",
+    "age": "45",
+    "id": "7"
+  },
+  {
+    "name": "안중근",
+    "favorite_food": "찜닭",
+    "age": "32",
+    "id": "8"
+  },
+  {
+    "name": "윤봉길",
+    "favorite_food": "삼겹살",
+    "age": "29",
+    "id": "9"
+  },
+  {
+    "name": "유관순",
+    "favorite_food": "순대",
+    "age": "23",
+    "id": "10"
+  },
+  {
+    "name": "김태희",
+    "favorite_food": "초밥",
+    "age": "27",
+    "id": "11"
+  },
+  {
+    "name": "이병헌",
+    "favorite_food": "파스타",
+    "age": "36",
+    "id": "12"
+  },
+  {
+    "name": "정민찬",
+    "favorite_food": "햄버거",
+    "age": "21",
+    "id": "13"
+  },
+  {
+    "name": "정민초",
+    "favorite_food": "초밥",
+    "age": "13",
+    "id": "14"
+  },
+  {
+    "name": "다니엘",
+    "favorite_food": "돼지국밥",
+    "age": "24",
+    "id": "15"
+  }
+]
